@@ -4,6 +4,7 @@ git commit -m "Add FL-Crypto fullstack application"
 git push origin maincd /workspaces/FLCryptoFinal
 git add -A
 git commit -m "Add FL-Crypto fullstack application"
+git push origin maingit remote set-url origin https://github.com/your-username/FLCryptoFinal.git
 git push origin mainfastapi==0.104.1
 uvicorn==0.24.0
 pydantic==2.5.0
