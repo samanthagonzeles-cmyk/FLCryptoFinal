@@ -1,0 +1,24 @@
+cd /workspaces/FLCryptoFinal
+git add -A
+git commit -m "Add FL-Crypto fullstack application"
+git push origin maincd /workspaces/FLCryptoFinal
+git add -A
+git commit -m "Add FL-Crypto fullstack application"
+git push origin mainfastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+supabase==2.4.0
+postgrest-py==0.14.5
+psycopg2-binary==2.9.9
+sqlalchemy==2.0.23
+alembic==1.13.1
+python-multipart==0.0.6
+httpx==0.25.2
+pyjwt==2.8.1
+cryptography==41.0.7
+numpy==1.24.3
+torch==2.0.1
+torchvision==0.15.2
+matplotlib==3.8.2
