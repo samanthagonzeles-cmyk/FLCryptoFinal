@@ -1,6 +1,6 @@
 'use client'
 
-import { Mail, Linkedin, Github } from 'lucide-react'
+import { Mail, Link, Code2 } from 'lucide-react'
 import { useState } from 'react'
 
 export default function Contact() {
@@ -120,7 +120,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Linkedin className="w-6 h-6 mt-1" />
+                <Link className="w-6 h-6 mt-1" />
                 <div>
                   <p className="font-semibold mb-1">LinkedIn</p>
                   <p className="text-white/80">@fl-crypto</p>
@@ -128,7 +128,7 @@ export default function Contact() {
               </div>
 
               <div className="flex items-start gap-4">
-                <Github className="w-6 h-6 mt-1" />
+                <Code2 className="w-6 h-6 mt-1" />
                 <div>
                   <p className="font-semibold mb-1">GitHub</p>
                   <p className="text-white/80">github.com/wmzb1211/FLCryptoFinal</p>
